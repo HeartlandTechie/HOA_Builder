@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="new.silverlakeraymore.net" id="0c32205d-e08a-4e7e-8116-da42a7d54d92" port="22" nameFormat="DESCRIPTIVE" username="bmiller" />
+    </configs>
+  </component>
+</project>

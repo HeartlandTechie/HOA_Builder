@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ad85f853-913e-4de5-922b-3b829fe9942a" name="new.silverlakeraymore.net">
+        <fileTransfer rootFolder="/var/www/working2" accessType="SFTP" host="new.silverlakeraymore.net" port="22" sshConfigId="0c32205d-e08a-4e7e-8116-da42a7d54d92" sshConfig="bmiller@new.silverlakeraymore.net:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
