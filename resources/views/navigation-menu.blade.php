@@ -223,9 +223,27 @@
                     {{ __('Profile') }}
                 </x-jet-responsive-nav-link>
 
+
+                <x-jet-responsive-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
+                    {{ __('Dashboard') }}
+                </x-jet-responsive-nav-link>
+
+                <x-jet-responsive-nav-link href="{{ route('calendar') }}" :active="request()->routeIs('calendar')">
+                    {{ __('Calendar') }}
+                </x-jet-responsive-nav-link>
+
+                <x-jet-responsive-nav-link href="{{ route('reservation') }}" :active="request()->routeIs('reservation')">
+                    {{ __('Reservation') }}
+                </x-jet-responsive-nav-link>
+
+                <x-jet-responsive-nav-link href="{{ route('checklist') }}" :active="request()->routeIs('checklist')">
+                    {{ __('System Check List') }}
+                </x-jet-responsive-nav-link>
+
                 <x-jet-responsive-nav-link href="{{ route('minutes') }}" :active="request()->routeIs('minutes')">
                     {{ __('Minutes') }}
                 </x-jet-responsive-nav-link>
+
 
                 @if (Laravel\Jetstream\Jetstream::hasApiFeatures())
                     <x-jet-responsive-nav-link href="{{ route('api-tokens.index') }}" :active="request()->routeIs('api-tokens.index')">
