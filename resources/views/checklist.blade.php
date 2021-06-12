@@ -37,7 +37,7 @@
                 @endforeach
 
                 <div class="justify-around flex flex-row items-baseline">
-                    <h1 class="text-md mt-2 ml-3">Missing a feature or have a suggestion? <a href="mailto:silverlake.web@gmail.com?subject=Idea">Email us your idea.</a></h1>
+                    <h1 class="text-md mt-2 ml-3">Missing a feature or have a suggestion? <a class="underline text-blue-800" href="mailto:silverlake.web@gmail.com?subject=Idea">Email us your idea.</a></h1>
                 </div>
 
             </div>
