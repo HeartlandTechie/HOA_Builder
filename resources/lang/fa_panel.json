@@ -42,5 +42,7 @@
     "Is_admin": "Is_admin",
     "User": "User",
     "Users": "Users",
-    "Is_superuser": "Is_superuser"
+    "Is_superuser": "Is_superuser",
+    "Password": "Password",
+    "Synopsis": "Synopsis"
 }

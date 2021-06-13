@@ -12,6 +12,7 @@ class Create extends Component
 
     public $name;
     public $email;
+    public $password;
     public $is_superuser;
     
     protected $rules = [
@@ -32,6 +33,7 @@ class Create extends Component
         User::create([
             'name' => $this->name,
             'email' => $this->email,
+            'password' => $this->password,
             'is_superuser' => $this->is_superuser,
             'user_id' => auth()->id(),
         ]);

@@ -28,6 +28,13 @@
                 @error('email') <div class='invalid-feedback'>{{ $message }}</div> @enderror
             </div>
             
+            <!-- Password Input -->
+            <div class='form-group'>
+                <label for='inputpassword' class='col-sm-2 control-label'> {{ __('Password') }}</label>
+                <input type='password' wire:model.lazy='password' class="form-control @error('password') is-invalid @enderror" id='inputpassword'>
+                @error('password') <div class='invalid-feedback'>{{ $message }}</div> @enderror
+            </div>
+            
             <!-- Is_superuser Input -->
             <div class='form-group'>
                 <label for='inputis_superuser' class='col-sm-2 control-label'> {{ __('Is_superuser') }}</label>

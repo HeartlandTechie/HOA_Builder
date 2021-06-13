@@ -4,7 +4,7 @@ return [
     'model' => App\Models\User::class,
 
     // searchable fields, if you dont want search feature, remove it
-    'search' => ['name', 'email', 'password'],
+    'search' => ['name', 'email', ],
 
     // Manage actions in crud
     'create' => true,
@@ -27,7 +27,8 @@ return [
     'fields' => [
         'name' => 'text',
         'email' => 'text',
-        'is_superuser' => ['select'=>[1,0]]
+        'password' => 'password',
+        'is_superuser' => ['select'=>[0=>'False',1=>'True']]
     ],
 
     // Where files will store for inputs

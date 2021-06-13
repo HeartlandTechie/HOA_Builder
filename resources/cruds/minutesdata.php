@@ -4,7 +4,7 @@ return [
     'model' => App\Models\MinutesData::class,
 
     // searchable fields, if you dont want search feature, remove it
-    'search' => [],
+    'search' => ['pdf_text'],
 
     // Manage actions in crud
     'create' => true,
@@ -35,5 +35,5 @@ return [
     ],
 
     // which kind of data should be showed in list page
-    'show' => ['filename', 'year_created'],
+    'show' => ['filename', 'year_created', 'synopsis'],
 ];
