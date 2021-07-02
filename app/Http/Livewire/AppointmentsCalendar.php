@@ -21,19 +21,19 @@ class AppointmentsCalendar extends LivewireCalendar
                 'id' => 0,
                 'title' => 'SLHA Game Night',
                 'description' => 'Meet at clubhouse for snacks and fun',
-                'date' => Carbon::parse('third Thursday of June 2021'),
+                'date' => Carbon::parse('third Thursday of July 2021'),
             ],
             [
                 'id' => 1,
                 'title' => 'SLHA Board Meeting',
                 'description' => 'Monthly Board Meeting - open to members',
-                'date' => Carbon::parse('second Thursday of June 2021'),
+                'date' => Carbon::parse('second Thursday of July 2021'),
             ],
             [
                 'id' => 2,
                 'title' => 'Reminder: Bulky Item',
                 'description' => 'First trash pickup day',
-                'date' => Carbon::parse('first Friday of June 2021'),
+                'date' => Carbon::parse('first Friday of July 2021'),
             ],
 
 
