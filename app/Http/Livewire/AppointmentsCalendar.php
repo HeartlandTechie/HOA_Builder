@@ -14,6 +14,7 @@ class AppointmentsCalendar extends LivewireCalendar
 {
     //
 
+
     public function events() : Collection
     {
         return collect([
